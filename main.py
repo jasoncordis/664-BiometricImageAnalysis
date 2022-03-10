@@ -8,7 +8,7 @@ from skimage.util import random_noise
 from skimage import feature
 
 
-image = io.imread('/664/664-BiometricImageAnalysis/images/0001.png')
+image = io.imread('/664/664-BiometricImageAnalysis/images/frames_grey/0001.png')
 
 #Threshold
 thresh = threshold_mean(image)
@@ -29,3 +29,6 @@ for a in ax:
 plt.show()
 
 #Edge detection
+edges = feature.canny(image)
+io.imshow(edges)
+io.show()
