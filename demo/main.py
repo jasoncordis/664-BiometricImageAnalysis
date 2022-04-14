@@ -14,7 +14,7 @@ def main():
             else:('Invalid example.')
                     
         elif(user_input == 'b'):
-            example = input('Binary Demo \nEnter 1 for Example 1 or 2 for Example 2 \n')
+            example = input('Binary Demo \nEnter 1 for Example 1 \n')
             if(example == '1'):
                 binaryFile('lonefishintersect2.png')
         elif(user_input == 'q'):
