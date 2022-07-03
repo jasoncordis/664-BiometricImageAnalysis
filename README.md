@@ -1,4 +1,4 @@
-# 664-BiometricImageAnalysis
+# Biometric Image Analysis Program
 
 # How it works:
 This is a Python application that is designed to analyze greyscale and binary images of zebrafish and locate the heads of each fish in the image. 
